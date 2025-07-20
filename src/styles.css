@@ -1,0 +1,53 @@
+/* src/styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+.logo {
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+.map-container {
+  width: 100%;
+  height: 400px;
+}
+.notification-popup {
+  background: #ffefc4;
+  padding: 1rem;
+  border: 1px solid #ffcc00;
+  margin-bottom: 1rem;
+}
+.ride-info {
+  background: #f0f0f0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.complete-button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.chat-box {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.chat-controls {
+  margin-top: 0.5rem;
+}
+button {
+  cursor: pointer;
+}
+input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
